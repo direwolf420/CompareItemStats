@@ -24,6 +24,9 @@ This does not work for most stats that accessories or armors give (consume ammo%
 
 Changelog:
 
+
+v0.1.0.7: Update to changes in tml
+
 v0.1.0.6: Preemptive update to future changes in tml
 
 v0.1.0.5: Update to changes in tml
