@@ -119,7 +119,11 @@ namespace CompareItemStats
 					//Tooltip comparers match tooltip by tooltip
 					if (CompareItemStats.TooltipComparers.TryGetValue(name, out var comparer))
 					{
+#if TML_2022_03
+						HandleComparer(comparer, name, newLines, item, compItem, line.text, compLine.text);
+#else
 						HandleComparer(comparer, name, newLines, item, compItem, line.Text, compLine.Text);
+#endif
 					}
 				}
 			}
@@ -166,7 +170,11 @@ namespace CompareItemStats
 
 				tooltips.Add(new TooltipLine(Mod, "Diff", statComparisonHeaderText)
 				{
+#if TML_2022_03
+					overrideColor = Color.Lerp(mouseColor, color, 0.8f)
+#else
 					OverrideColor = Color.Lerp(mouseColor, color, 0.8f)
+#endif
 				});
 
 				if (showComparison)
