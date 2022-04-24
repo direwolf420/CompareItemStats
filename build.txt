@@ -1,6 +1,6 @@
 displayName = Compare Item Stats
 author = direwolf420
-version = 0.1.0.7
+version = 0.1.1
 side = Client
 includePDB = true
 buildIgnore = *.csproj, *.sln, *.user, *.md, obj\*, bin\*, .vs\*, .git\*, .gitignore, .gitattributes

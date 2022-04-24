@@ -24,6 +24,7 @@ This does not work for most stats that accessories or armors give (consume ammo%
 
 Changelog:
 
+v0.1.1: Comparison only shows up when holding "Auto Select" key (usually <LeftShift>) (See the config for details)
 
 v0.1.0.7: Update to changes in tml
 

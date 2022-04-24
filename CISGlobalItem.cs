@@ -6,6 +6,7 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Microsoft.Xna.Framework;
 using CompareItemStats.Comparers;
+using Terraria.GameInput;
 
 namespace CompareItemStats
 {
@@ -131,19 +132,47 @@ namespace CompareItemStats
 
 			if (newLines.Count > 0)
 			{
+				var keys = PlayerInput.CurrentProfile.InputModes[InputMode.Keyboard].KeyStatus[TriggerNames.SmartSelect];
+				string key = keys.Count == 0 ? null : keys[0];
+
+				//If has a key, but not pressing it, show the ForMoreInfo text
+				//Otherwise, list all comparisons
+
+				//No tml hooks between controlTorch getting set, and then reset again in SmartSelectLookup, so we have to use the raw data from PlayerInput
+				bool comparisonKeyPressed = key == null || PlayerInput.Triggers.Current.SmartSelect;
+				bool showComparison = comparisonKeyPressed || CISClientConfig.Instance.AlwaysShowComparison;
+
+				Color mouseColor = Main.MouseTextColorReal;
+
 				string equipItem = "";
 				if (equipItemOverride.HasValue)
 				{
 					equipItem = equipItemOverride.Value ? " (Equipped Item)" : " (Selected Item)";
 				}
 
-				Color mouseColor = Main.MouseTextColorReal;
-				tooltips.Add(new TooltipLine(Mod, "Diff", $"=Stat Comparison{equipItem}=")
+				string statComparisonHeaderText = "=Stat Comparison";
+				Color color = Color.Gold;
+				if (!showComparison)
 				{
-					OverrideColor = Color.Lerp(mouseColor, Color.Gold, 0.8f)
+					color = Color.Gray;
+					statComparisonHeaderText += $" Available{equipItem}";
+					statComparisonHeaderText += $": (Hold 'Auto Select' key ({key}) to show comparison)";
+				}
+				else
+				{
+					statComparisonHeaderText += equipItem;
+				}
+				statComparisonHeaderText += "=";
+
+				tooltips.Add(new TooltipLine(Mod, "Diff", statComparisonHeaderText)
+				{
+					OverrideColor = Color.Lerp(mouseColor, color, 0.8f)
 				});
 
-				tooltips.AddRange(newLines);
+				if (showComparison)
+				{
+					tooltips.AddRange(newLines);
+				}
 			}
 		}
 
