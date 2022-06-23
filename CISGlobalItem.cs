@@ -191,7 +191,7 @@ namespace CompareItemStats
 				return true;
 			}
 
-			if (compItem.type == item.type)
+			if (compItem.type == item.type && compItem.prefix == item.prefix)
 			{
 				return true;
 			}
