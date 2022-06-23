@@ -1,0 +1,1 @@
+Fixed comparison not showing for items of the same type but different prefix

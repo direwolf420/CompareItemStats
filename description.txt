@@ -24,6 +24,8 @@ This does not work for most stats that accessories or armors give (consume ammo%
 
 Changelog:
 
+v0.1.1.2: Fixed comparison not showing for items of the same type but different prefix
+
 v0.1.1.1: Added workshop tags
 
 v0.1.1: Comparison only shows up when holding "Auto Select" key (usually <LeftShift>) (See the config for details)

@@ -1,12 +1,8 @@
-# CompareItemStats
-
-![Icon](https://raw.githubusercontent.com/direwolf420/CompareItemStats/master/icon.png)
-
-Compare Item Stats is a clientside mod that allows you to view differences between the currently selected item and the one you are hovering over in the tooltip.
+[b]Compare Item Stats[/b] is a clientside mod that allows you to view differences between the currently selected item and the one you are hovering over in the tooltip.
 
 If you hover over armors or wings, and the selected item is not the same archetype, it will compare with your currently equipped gear instead.
 
-Supported stats:
+[b]Supported stats:[/b]
 * Damage
 * Crit Chance
 * Speed
@@ -22,11 +18,11 @@ Supported stats:
 * Wing Horizontal/Vertical Speed
 * Defense
 * Life Regeneration
-
+[hr][/hr]
 If you experience issues with stats not being displayed, let me know. I did not test this with many other mods or different languages.
 This does not work for most stats that accessories or armors give (consume ammo%, damage%, buff immunities etc.) as there is no tangible way to fetch this information. Hopefully, in a future update I will manage to implement such a thing.
-
-Changelog:
+[hr][/hr]
+[b]Changelog:[/b]
 
 v0.1.1.2: Fixed comparison not showing for items of the same type but different prefix
 
