@@ -22,7 +22,11 @@ Supported stats:
 If you experience issues with stats not being displayed, let me know. I did not test this with many other mods or different languages.
 This does not work for most stats that accessories or armors give (consume ammo%, damage%, buff immunities etc.) as there is no tangible way to fetch this information. Hopefully, in a future update I will manage to implement such a thing.
 
+If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/direwolf420/CompareItemStats
+
 Changelog:
+
+v0.1.2: Added localization support. Currently only english
 
 v0.1.1.2: Fixed comparison not showing for items of the same type but different prefix
 

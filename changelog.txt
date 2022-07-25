@@ -1,1 +1,1 @@
-Fixed comparison not showing for items of the same type but different prefix
+Added localization support. You are welcome to contribute them here: https://github.com/direwolf420/CompareItemStats
