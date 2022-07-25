@@ -4,7 +4,7 @@ namespace CompareItemStats.Comparers.Special
 {
 	public class WingFlyTimeComparer : WingComparer
 	{
-		public WingFlyTimeComparer() : base("Fly Time") { }
+		public WingFlyTimeComparer() : base("WingFlyTime") { }
 
 		public override float GetValueFromString(string text, Item item)
 		{
@@ -18,7 +18,7 @@ namespace CompareItemStats.Comparers.Special
 
 		public override string DiffToString(float diff)
 		{
-			return ((int)(diff * 100) / 100f) + "s"; //Round last two digits
+			return ((int)(diff * 100) / 100f) + LangHelper.GetTextFromMod("Common.Seconds"); //Round last two digits
 		}
 	}
 }

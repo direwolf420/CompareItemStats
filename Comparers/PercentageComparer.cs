@@ -9,7 +9,7 @@ namespace CompareItemStats.Comparers
 	{
 		private static readonly char percent = '%';
 
-		public PercentageComparer(string displayName) : base(displayName) { }
+		public PercentageComparer(string internalName) : base(internalName) { }
 
 		public override float GetValueFromString(string text, Item item)
 		{

@@ -4,7 +4,7 @@ namespace CompareItemStats.Comparers.Special
 {
 	public abstract class AccessoryComparer : SpecialComparer
 	{
-		public AccessoryComparer(string displayName) : base(displayName) { }
+		public AccessoryComparer(string internalName) : base(internalName) { }
 
 		public override bool CanShow(Item item, Item compareItem)
 		{

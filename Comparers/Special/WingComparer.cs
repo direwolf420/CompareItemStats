@@ -26,7 +26,7 @@ namespace CompareItemStats.Comparers.Special
 		}
 		 */
 
-		public WingComparer(string displayName) : base(displayName) { }
+		public WingComparer(string internalName) : base(internalName) { }
 
 		public override bool CanShow(Item item, Item compareItem)
 		{

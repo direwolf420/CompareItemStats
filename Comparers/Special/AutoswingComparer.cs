@@ -29,7 +29,7 @@ namespace CompareItemStats.Comparers.Special
 
 		public override string GetSignString(bool positive)
 		{
-			return positive ? "Yes" : "No";
+			return positive ? LangHelper.GetTextFromMod("Common.Yes") : LangHelper.GetTextFromMod("Common.No");
 		}
 
 		public override string DiffToString(float diff)

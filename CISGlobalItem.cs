@@ -147,7 +147,7 @@ namespace CompareItemStats
 				string equipItem = "";
 				if (equipItemOverride.HasValue)
 				{
-					equipItem = equipItemOverride.Value ? " (Equipped Item)" : " (Selected Item)";
+					equipItem = equipItemOverride.Value ? $" ({LangHelper.GetTextFromMod("Common.EquippedItem")})" : $" ({LangHelper.GetTextFromMod("Common.SelectedItem")})";
 				}
 
 				string statComparisonHeaderText = "=Stat Comparison";
@@ -155,8 +155,8 @@ namespace CompareItemStats
 				if (!showComparison)
 				{
 					color = Color.Gray;
-					statComparisonHeaderText += $" Available{equipItem}";
-					statComparisonHeaderText += $": (Hold 'Auto Select' key ({key}) to show comparison)";
+					statComparisonHeaderText += $" {LangHelper.GetTextFromMod("Common.Available")}{equipItem}";
+					statComparisonHeaderText += $": ({LangHelper.GetTextFromMod("Common.ComparisonHint", key)})";
 				}
 				else
 				{

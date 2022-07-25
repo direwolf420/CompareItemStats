@@ -9,7 +9,7 @@ namespace CompareItemStats.Comparers.Special
 		/// </summary>
 		private static readonly char percent = '%';
 
-		public WingVerticalComparer() : base("Vertical Acceleration") { }
+		public WingVerticalComparer() : base("WingVertical") { }
 
 		public override float GetValueFromString(string text, Item item)
 		{

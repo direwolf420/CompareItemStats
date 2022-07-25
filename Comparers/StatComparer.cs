@@ -11,11 +11,13 @@ namespace CompareItemStats.Comparers
 		/// <summary>
 		/// Name of the stat shown in the tooltip
 		/// </summary>
-		public string DisplayName { get; init; }
+		public string DisplayNameKey { get; init; }
 
-		public StatComparer(string displayName)
+		public string DisplayName => LangHelper.GetText(DisplayNameKey);
+
+		public StatComparer(string internalName)
 		{
-			DisplayName = displayName;
+			DisplayNameKey = LangHelper.BuildKey($"StatComparerName.{internalName}");
 		}
 
 		/// <summary>

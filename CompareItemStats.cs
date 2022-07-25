@@ -8,8 +8,14 @@ namespace CompareItemStats
 {
 	public class CompareItemStats : Mod
 	{
+		/// <summary>
+		/// Comparers indexed by tooltip line name
+		/// </summary>
 		public static Dictionary<string, StatComparer> TooltipComparers { get; private set; }
-		
+
+		/// <summary>
+		/// Comparers not tied to tooltip lines
+		/// </summary>
 		public static List<SpecialComparer> SpecialComparers { get; private set; }
 
 		//Not actually used anywhere
@@ -37,17 +43,17 @@ namespace CompareItemStats
 			TooltipComparers = new Dictionary<string, StatComparer>
 			{
 				{"Damage", new StatComparer("Damage") },
-				{"CritChance", new PercentageComparer("Crit") },
+				{"CritChance", new PercentageComparer("CritChance") },
 				{"Speed", new SpeedComparer() },
 				{"Knockback", new KnockbackComparer() },
-				{"FishingPower", new PercentageComparer("Fishing Power") },
-				{"BaitPower", new PercentageComparer("Bait Power") },
+				{"FishingPower", new PercentageComparer("FishingPower") },
+				{"BaitPower", new PercentageComparer("BaitPower") },
 				{"Defense", new StatComparer("Defense") },
-				{"PickPower", new PercentageComparer("Pickaxe Power") },
-				{"AxePower", new PercentageComparer("Axe Power") },
-				{"HammerPower", new PercentageComparer("Hammer Power") },
-				{"HealLife", new StatComparer("Restored Life") },
-				{"HealMana", new StatComparer("Restored Mana") },
+				{"PickPower", new PercentageComparer("PickaxePower") },
+				{"AxePower", new PercentageComparer("AxePower") },
+				{"HammerPower", new PercentageComparer("HammerPower") },
+				{"HealLife", new StatComparer("HealLife") },
+				{"HealMana", new StatComparer("HealMana") },
 				{"UseMana", new UseManaComparer() },
 			};
 

@@ -2,6 +2,6 @@
 {
 	public class SpecialComparer : StatComparer
 	{
-		public SpecialComparer(string displayName) : base(displayName) { }
+		public SpecialComparer(string internalName) : base(internalName) { }
 	}
 }

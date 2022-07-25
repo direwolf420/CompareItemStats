@@ -5,7 +5,7 @@ namespace CompareItemStats.Comparers.Special
 	public class TileBoostComparer : SpecialComparer
 	{
 		//Needs special because tooltip only appears if tileBoost != 0, but it is relevant for those items too
-		public TileBoostComparer() : base("Range") { }
+		public TileBoostComparer() : base("TileBoost") { }
 
 		public override bool CanShow(Item item, Item compareItem)
 		{

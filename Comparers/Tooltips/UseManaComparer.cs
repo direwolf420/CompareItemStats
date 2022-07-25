@@ -5,7 +5,7 @@
 	/// </summary>
 	public class UseManaComparer : StatComparer
 	{
-		public UseManaComparer() : base("Mana Cost") { }
+		public UseManaComparer() : base("UseMana") { }
 
 		public override float GetAbsDiff(float num, float compNum, out bool positive)
 		{

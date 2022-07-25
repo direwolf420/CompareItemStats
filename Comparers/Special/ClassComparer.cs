@@ -6,7 +6,7 @@ namespace CompareItemStats.Comparers.Special
 {
 	public class ClassComparer : SpecialComparer
 	{
-		public ClassComparer() : base("Same Class") { }
+		public ClassComparer() : base("Class") { }
 
 		public override bool CanShow(Item item, Item compareItem)
 		{
@@ -33,7 +33,7 @@ namespace CompareItemStats.Comparers.Special
 
 		public override string GetSignString(bool positive)
 		{
-			return positive ? "Yes" : "No"; //It will only show when negative
+			return positive ? LangHelper.GetTextFromMod("Common.Yes") : LangHelper.GetTextFromMod("Common.No"); //It will only show when negative
 		}
 
 		public override string DiffToString(float diff)

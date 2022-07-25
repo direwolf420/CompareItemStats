@@ -4,7 +4,7 @@ namespace CompareItemStats.Comparers.Special
 {
 	public class WingHorizontalComparer : WingComparer
 	{
-		public WingHorizontalComparer() : base("Horizontal Velocity") { }
+		public WingHorizontalComparer() : base("WingHorizontal") { }
 
 		public override float GetValueFromString(string text, Item item)
 		{
@@ -25,7 +25,7 @@ namespace CompareItemStats.Comparers.Special
 
 		public override string DiffToString(float diff)
 		{
-			return base.DiffToString(diff) + " mph";
+			return base.DiffToString(diff) + $" {LangHelper.GetTextFromMod("Common.MilesPerHour")}";
 		}
 	}
 }
