@@ -99,11 +99,7 @@ namespace CompareItemStats.Comparers
 			Color mouseColor = Main.MouseTextColorReal;
 			newLines.Add(new TooltipLine(mod, $"Diff_{name}", $"{DisplayName}: {diffText}")
 			{
-#if TML_2022_03
-				overrideColor = Color.Lerp(mouseColor, positive ? Color.Green : Color.Red, 0.4f)
-#else
 				OverrideColor = Color.Lerp(mouseColor, positive ? Color.Green : Color.Red, 0.4f)
-#endif
 			});
 		}
 	}
