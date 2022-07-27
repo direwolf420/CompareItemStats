@@ -1,1 +1,1 @@
-Added localization support. You are welcome to contribute them here: https://github.com/direwolf420/CompareItemStats
+Added "Don't Show Hint Tooltip" toggle in the config

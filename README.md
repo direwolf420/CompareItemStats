@@ -30,6 +30,8 @@ If you want to add support for different languages, you are welcome to contribut
 
 Changelog:
 
+v0.1.3: Added "Don't Show Hint Tooltip" toggle in the config
+
 v0.1.2: Added localization support. Currently only english
 
 v0.1.1.2: Fixed comparison not showing for items of the same type but different prefix
