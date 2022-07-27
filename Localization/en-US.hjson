@@ -31,7 +31,7 @@ Mods.CompareItemStats: {
 		Available: Available
 		EquippedItem: Equipped Item
 		SelectedItem: Selected Item
-		ComparisonHint: "Hold 'Auto Select' key ({0}) to show comparison"
+		ComparisonHint: "Hold 'Auto Select' key ({0})"
 	}
 
 	CISClientConfig: {
@@ -40,6 +40,11 @@ Mods.CompareItemStats: {
 		AlwaysShowComparison: {
 			Label: Always Show Comparison
 			Tooltip: "If on, always displays comparison if it exists. Use the 'Auto Select' key to toggle it otherwise (usually <LeftShift>)"
+		}
+
+		DontShowHintTooltip: {
+			Label: Don't Show Hint Tooltip
+			Tooltip: "If on, won't show the tooltip that tells you to how to show the comparison"
 		}
 	}
 }

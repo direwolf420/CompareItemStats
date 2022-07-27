@@ -15,5 +15,10 @@ namespace CompareItemStats
 		[Tooltip("$Mods.CompareItemStats.CISClientConfig.AlwaysShowComparison.Tooltip")]
 		[DefaultValue(false)]
 		public bool AlwaysShowComparison;
+
+		[Label("$Mods.CompareItemStats.CISClientConfig.DontShowHintTooltip.Label")]
+		[Tooltip("$Mods.CompareItemStats.CISClientConfig.DontShowHintTooltip.Tooltip")]
+		[DefaultValue(false)]
+		public bool DontShowHintTooltip;
 	}
 }

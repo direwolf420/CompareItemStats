@@ -130,6 +130,7 @@ namespace CompareItemStats
 				HandleComparer(comparer, comparer.GetType().Name, newLines, item, compItem);
 			}
 
+			CISClientConfig config = CISClientConfig.Instance;
 			if (newLines.Count > 0)
 			{
 				var keys = PlayerInput.CurrentProfile.InputModes[InputMode.Keyboard].KeyStatus[TriggerNames.SmartSelect];
@@ -140,7 +141,7 @@ namespace CompareItemStats
 
 				//No tml hooks between controlTorch getting set, and then reset again in SmartSelectLookup, so we have to use the raw data from PlayerInput
 				bool comparisonKeyPressed = key == null || PlayerInput.Triggers.Current.SmartSelect;
-				bool showComparison = comparisonKeyPressed || CISClientConfig.Instance.AlwaysShowComparison;
+				bool showComparison = comparisonKeyPressed || config.AlwaysShowComparison;
 
 				Color mouseColor = Main.MouseTextColorReal;
 
@@ -150,24 +151,27 @@ namespace CompareItemStats
 					equipItem = equipItemOverride.Value ? $" ({LangHelper.GetTextFromMod("Common.EquippedItem")})" : $" ({LangHelper.GetTextFromMod("Common.SelectedItem")})";
 				}
 
-				string statComparisonHeaderText = "=Stat Comparison";
-				Color color = Color.Gold;
-				if (!showComparison)
+				if (!config.DontShowHintTooltip)
 				{
-					color = Color.Gray;
-					statComparisonHeaderText += $" {LangHelper.GetTextFromMod("Common.Available")}{equipItem}";
-					statComparisonHeaderText += $": ({LangHelper.GetTextFromMod("Common.ComparisonHint", key)})";
-				}
-				else
-				{
-					statComparisonHeaderText += equipItem;
-				}
-				statComparisonHeaderText += "=";
+					string statComparisonHeaderText = "=Stat Comparison";
+					Color color = Color.Gold;
+					if (!showComparison)
+					{
+						color = Color.Gray;
+						statComparisonHeaderText += $" {LangHelper.GetTextFromMod("Common.Available")}{equipItem}";
+						statComparisonHeaderText += $": ({LangHelper.GetTextFromMod("Common.ComparisonHint", key)})";
+					}
+					else
+					{
+						statComparisonHeaderText += equipItem;
+					}
+					statComparisonHeaderText += "=";
 
-				tooltips.Add(new TooltipLine(Mod, "Diff", statComparisonHeaderText)
-				{
-					OverrideColor = Color.Lerp(mouseColor, color, 0.8f)
-				});
+					tooltips.Add(new TooltipLine(Mod, "Diff", statComparisonHeaderText)
+					{
+						OverrideColor = Color.Lerp(mouseColor, color, 0.8f)
+					});
+				}
 
 				if (showComparison)
 				{
