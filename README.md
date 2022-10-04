@@ -28,7 +28,12 @@ This does not work for most stats that accessories or armors give (consume ammo%
 
 If you want to add support for different languages, you are welcome to contribute localizations to this repo
 
+List of localization contributors:
+* German: **Psychotrickser**
+
 Changelog:
+
+v0.1.3.1: Added german localization, thanks Psychotrickser!
 
 v0.1.3: Added "Don't Show Hint Tooltip" toggle in the config
 

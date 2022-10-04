@@ -1,1 +1,1 @@
-Added "Don't Show Hint Tooltip" toggle in the config
+Added german localization, thanks Psychotrickser!

@@ -31,6 +31,7 @@ Mods.CompareItemStats: {
 		Available: Available
 		EquippedItem: Equipped Item
 		SelectedItem: Selected Item
+		StatComparison: Stat Comparison
 		ComparisonHint: "Hold 'Auto Select' key ({0})"
 	}
 

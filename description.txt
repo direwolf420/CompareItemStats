@@ -23,8 +23,12 @@ If you experience issues with stats not being displayed, let me know. I did not 
 This does not work for most stats that accessories or armors give (consume ammo%, damage%, buff immunities etc.) as there is no tangible way to fetch this information. Hopefully, in a future update I will manage to implement such a thing.
 
 If you want to add support for different languages, you are welcome to contribute localizations here: https://github.com/direwolf420/CompareItemStats
+List of localization contributors:
+* German: Psychotrickser
 
 Changelog:
+
+v0.1.3.1: Added german localization, thanks Psychotrickser!
 
 v0.1.3: Added "Don't Show Hint Tooltip" toggle in the config
 

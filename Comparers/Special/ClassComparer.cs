@@ -4,6 +4,7 @@ using Terraria.ModLoader;
 
 namespace CompareItemStats.Comparers.Special
 {
+	//TODO melee/meleenospeed and variations of this pattern will show as different classes here
 	public class ClassComparer : SpecialComparer
 	{
 		public ClassComparer() : base("Class") { }

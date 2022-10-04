@@ -153,7 +153,7 @@ namespace CompareItemStats
 
 				if (!config.DontShowHintTooltip)
 				{
-					string statComparisonHeaderText = "=Stat Comparison";
+					string statComparisonHeaderText = $"={LangHelper.GetTextFromMod("Common.StatComparison")}";
 					Color color = Color.Gold;
 					if (!showComparison)
 					{

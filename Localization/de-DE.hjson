@@ -31,6 +31,7 @@ Mods.CompareItemStats: {
 		Available: Verfügbar
 		EquippedItem: Ausgerüstetes Item
 		SelectedItem: Ausgewähltes Item
+		StatComparison: Wertevergleich
 		ComparisonHint: "Halte 'Automatische Auswahl' Taste ({0})"
 	}
 
