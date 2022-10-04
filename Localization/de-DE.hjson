@@ -1,2 +1,50 @@
 Mods.CompareItemStats: {
+	StatComparerName: {
+		Damage: Schaden
+		CritChance: Krit
+		Speed: Geschwindigkeit
+		Knockback: Rückstoß
+		FishingPower: Angelkraft
+		BaitPower: Köderkraft
+		Defense: Verteidigung
+		PickPower: Spitzhackenkraft
+		AxePower: Axtkraft
+		HammerPower: Hammerkraft
+		HealLife: Wiederhergestellte Gesundheit
+		HealMana: Wiederhergestelltes Mana
+		UseMana: Manakosten
+
+		Autoswing: Autoschwingen
+		TileBoost: Reichweite
+		WingFlyTime: Flugdauer
+		WingHorizontal: Horizontale Geschwindigkeit
+		WingVertical: Vertikale Beschleunigung
+		Class: Gleiche Klasse
+		Regeneration: Lebensregeneration
+	}
+
+	Common: {
+		Yes: Ja
+		No: Nein
+		Seconds: s
+		MilesPerHour: mph
+		Available: Verfügbar
+		EquippedItem: Ausgerüstetes Item
+		SelectedItem: Ausgewähltes Item
+		ComparisonHint: "Halte 'Automatische Auswahl' Taste ({0})"
+	}
+
+	CISClientConfig: {
+		Label: Client Konfiguration
+
+		AlwaysShowComparison: {
+			Label: Zeige Vergleich immer
+			Tooltip: "Wenn aktiviert, zeigt sofern möglich immer einen Vergleich ein. Drücke die 'Automatische Auswahl' Taste, um es umzustellen. (normalerweise <LeftShift>)"
+		}
+
+		DontShowHintTooltip: {
+			Label: Zeige keine Hinweise
+			Tooltip: "Wenn aktiviert, zeigt keinen Hinweis an, wie du den Vergleich anzeigen lassen kannst."
+		}
+	}
 }
