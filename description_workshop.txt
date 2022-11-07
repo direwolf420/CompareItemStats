@@ -25,9 +25,12 @@ This does not work for most stats that accessories or armors give (consume ammo%
 If you want to add support for different languages, you are welcome to contribute localizations here: [b][url=https://github.com/direwolf420/CompareItemStats]GitHub[/url][/b]
 List of localization contributors:
 * German: [b]Psychotrickser[/b]
+* Simplified chinese: [b]Cyril[/b]
 [hr][/hr]
 
 [b]Changelog:[/b]
+
+v0.1.3.2: Added simplified chinese localization, thanks Cyril!
 
 v0.1.3.1: Added german localization, thanks Psychotrickser!
 

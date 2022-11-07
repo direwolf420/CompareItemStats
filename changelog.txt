@@ -1,1 +1,1 @@
-Added german localization, thanks Psychotrickser!
+Added simplified chinese localization, thanks Cyril!
