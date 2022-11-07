@@ -1,1 +1,1 @@
-Added simplified chinese localization, thanks Cyril!
+Added simplified Chinese localization, thanks Cyril!
