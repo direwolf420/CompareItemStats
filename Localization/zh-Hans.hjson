@@ -1,2 +1,51 @@
 Mods.CompareItemStats: {
+	StatComparerName: {
+		Damage: 伤害
+		CritChance: 暴击
+		Speed: 速度
+		Knockback: 击退
+		FishingPower: 渔力
+		BaitPower: 渔力
+		Defense: 防御
+		PickPower: 镐力
+		AxePower: 斧力
+		HammerPower: 锤力
+		HealLife: 生命恢复
+		HealMana: 魔力恢复
+		UseMana: 魔力消耗
+
+		Autoswing: 自动挥舞
+		TileBoost: 范围
+		WingFlyTime: 飞行时间
+		WingHorizontal: 横向速度
+		WingVertical: 纵向加速度
+		Class: 伤害类型相同
+		Regeneration: 生命恢复速率
+	}
+
+	Common: {
+		Yes: 是
+		No: 否
+		Seconds: 秒
+		MilesPerHour: mph
+		Available: 可用
+		EquippedItem: 装备物品
+		SelectedItem: 选定物品
+		StatComparison: 数值对比
+		ComparisonHint: "按住“自动选择”键 ({0})"
+	}
+
+	CISClientConfig: {
+		Label: 客户端配置
+
+		AlwaysShowComparison: {
+			Label: 始终显示数值对比
+			Tooltip: "开启后会始终显示数值对比，否则需要按住“自动选择”键 (一般来说是 <左Shift>)"
+		}
+
+		DontShowHintTooltip: {
+			Label: 不显示数值对比提示
+			Tooltip: "开启后，不会有教你显示数值对比的提示"
+		}
+	}
 }
