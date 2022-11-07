@@ -1,3 +1,4 @@
+Mods.CompareItemStats: {
 	StatComparerName: {
 		Damage: 伤害
 		CritChance: 暴击
@@ -47,3 +48,4 @@
 			Tooltip: "开启后，不会有教你显示数值对比的提示"
 		}
 	}
+}
