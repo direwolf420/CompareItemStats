@@ -30,10 +30,13 @@ If you want to add support for different languages, you are welcome to contribut
 
 List of localization contributors:
 * German: **Psychotrickser**
+* Simplified Chinese: **Cyril**
 
 Changelog:
 
-v0.1.3.1: Added german localization, thanks Psychotrickser!
+v0.1.3.2: Added simplified Chinese localization, thanks Cyril!
+
+v0.1.3.1: Added German localization, thanks Psychotrickser!
 
 v0.1.3: Added "Don't Show Hint Tooltip" toggle in the config
 
