@@ -197,26 +197,22 @@ namespace CompareItemStats
 
 		public static bool IsArmor(Item item, out Item armor)
 		{
-			bool isArmor = false;
 			armor = null;
 			Player player = Main.LocalPlayer;
 			if (item.headSlot > -1)
 			{
-				isArmor = true;
 				armor = player.armor[0];
 			}
 			else if (item.bodySlot > -1)
 			{
-				isArmor = true;
 				armor = player.armor[1];
 			}
 			else if (item.legSlot > -1)
 			{
-				isArmor = true;
 				armor = player.armor[2];
 			}
 
-			return isArmor;
+			return armor != null;
 		}
 
 		public static bool GetPlayerWings(out Item wing)
