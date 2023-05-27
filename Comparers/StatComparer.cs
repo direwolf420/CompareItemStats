@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using Terraria;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CompareItemStats.Comparers
@@ -11,13 +12,12 @@ namespace CompareItemStats.Comparers
 		/// <summary>
 		/// Name of the stat shown in the tooltip
 		/// </summary>
-		public string DisplayNameKey { get; init; }
-
-		public string DisplayName => LangHelper.GetText(DisplayNameKey);
+		public LocalizedText DisplayName { get; init; }
 
 		public StatComparer(string internalName)
 		{
-			DisplayNameKey = LangHelper.BuildKey($"StatComparerName.{internalName}");
+			string category = $"StatComparers.";
+			DisplayName ??= Language.GetOrRegister(ModContent.GetInstance<CompareItemStats>().GetLocalizationKey($"{category}{internalName}.DisplayName"));
 		}
 
 		/// <summary>

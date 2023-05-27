@@ -1,1 +1,3 @@
-Added simplified Chinese localization, thanks Cyril!
+* Updated to 1.4.4 tml
+* Fixed "pickaxe power" tooltip
+* Added "can fish in lava" tooltip

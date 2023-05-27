@@ -1,51 +1,55 @@
-Mods.CompareItemStats: {
-	StatComparerName: {
-		Damage: Damage
-		CritChance: Crit
-		Speed: Speed
-		Knockback: Knockback
-		FishingPower: Fishing Power
-		BaitPower: Bait Power
-		Defense: Defense
-		PickPower: Pickaxe Power
-		AxePower: Axe Power
-		HammerPower: Hammer Power
-		HealLife: Restored Life
-		HealMana: Restored Mana
-		UseMana: Mana Cost
-
-		Autoswing: Autoswing
-		TileBoost: Range
-		WingFlyTime: Fly Time
-		WingHorizontal: Horizontal Velocity
-		WingVertical: Vertical Acceleration
-		Class: Same Class
-		Regeneration: Life Regeneration
-	}
-
-	Common: {
-		Yes: Yes
-		No: No
-		Seconds: s
-		MilesPerHour: mph
-		Available: Available
-		EquippedItem: Equipped Item
-		SelectedItem: Selected Item
-		StatComparison: Stat Comparison
-		ComparisonHint: "Hold 'Auto Select' key ({0})"
-	}
-
-	CISClientConfig: {
-		Label: Client Config
-
-		AlwaysShowComparison: {
-			Label: Always Show Comparison
-			Tooltip: "If on, always displays comparison if it exists. Use the 'Auto Select' key to toggle it otherwise (usually <LeftShift>)"
+Mods: {
+	CompareItemStats: {
+		StatComparers: {
+			Damage.DisplayName: Damage
+			CritChance.DisplayName: Crit
+			Speed.DisplayName: Speed
+			Knockback.DisplayName: Knockback
+			FishingPower.DisplayName: Fishing Power
+			BaitPower.DisplayName: Bait Power
+			Defense.DisplayName: Defense
+			PickaxePower.DisplayName: Pickaxe Power
+			AxePower.DisplayName: Axe Power
+			HammerPower.DisplayName: Hammer Power
+			HealLife.DisplayName: Restored Life
+			HealMana.DisplayName: Restored Mana
+			UseMana.DisplayName: Mana Cost
+			Autoswing.DisplayName: Autoswing
+			CanFishInLava.DisplayName: Can Fish In Lava
+			TileBoost.DisplayName: Range
+			WingFlyTime.DisplayName: Fly Time
+			WingHorizontal.DisplayName: Horizontal Velocity
+			WingVertical.DisplayName: Vertical Acceleration
+			Class.DisplayName: Same Class
+			Regeneration.DisplayName: Life Regeneration
 		}
 
-		DontShowHintTooltip: {
-			Label: Don't Show Hint Tooltip
-			Tooltip: "If on, won't show the tooltip that tells you to how to show the comparison"
+		Common: {
+			Yes: Yes
+			No: No
+			Seconds: s
+			MilesPerHour: mph
+			Available: Available
+			EquippedItem: Equipped Item
+			SelectedItem: Selected Item
+			StatComparison: Stat Comparison
+			ComparisonHint: Hold 'Auto Select' key ({0})
+		}
+
+		Configs: {
+			CISClientConfig: {
+				DisplayName: Client Config
+
+				AlwaysShowComparison: {
+					Label: Always Show Comparison
+					Tooltip: If on, always displays comparison if it exists. Use the 'Auto Select' key to toggle it otherwise (usually <LeftShift>)
+				}
+
+				DontShowHintTooltip: {
+					Label: Don't Show Hint Tooltip
+					Tooltip: If on, won't show the tooltip that tells you to how to show the comparison
+				}
+			}
 		}
 	}
 }

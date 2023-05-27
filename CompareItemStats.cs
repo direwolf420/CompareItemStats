@@ -58,11 +58,11 @@ namespace CompareItemStats
 			};
 
 			//TODO comparers for Tooltip# to get info about equipables
-			//TODO catch fish in lava comparer
 
 			SpecialComparers = new List<SpecialComparer>()
 			{
 				new AutoswingComparer(),
+				new CanFishInLavaComparer(),
 				new TileBoostComparer(),
 				new WingFlyTimeComparer(),
 				new WingHorizontalComparer(),
