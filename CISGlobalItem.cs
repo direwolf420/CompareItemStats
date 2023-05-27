@@ -287,11 +287,11 @@ namespace CompareItemStats
 			}
 			string[] tooltipNames = new string[num2];
 
-			Main.MouseText_DrawItemTooltip_GetLinesInfo(hoverItem, ref yoyoLogo, ref researchLine, knockBack, ref numLines, array, array2, array3, tooltipNames);
+			Main.MouseText_DrawItemTooltip_GetLinesInfo(hoverItem, ref yoyoLogo, ref researchLine, knockBack, ref numLines, array, array2, array3, tooltipNames, out int prefixlineIndex);
 			if (Main.npcShop > 0 && hoverItem.value >= 0 && (hoverItem.type < ItemID.CopperCoin || hoverItem.type > ItemID.PlatinumCoin))
 			{
-				Main.LocalPlayer.GetItemExpectedPrice(hoverItem, out int calcForSelling, out int calcForBuying);
-				int num5 = (hoverItem.isAShopItem || hoverItem.buyOnce) ? calcForBuying : calcForSelling;
+				Main.LocalPlayer.GetItemExpectedPrice(hoverItem, out long calcForSelling, out long calcForBuying);
+				long num5 = (hoverItem.isAShopItem || hoverItem.buyOnce) ? calcForBuying : calcForSelling;
 				if (hoverItem.shopSpecialCurrency != -1)
 				{
 					tooltipNames[numLines] = "SpecialPrice";
@@ -300,11 +300,11 @@ namespace CompareItemStats
 				else if (num5 > 0)
 				{
 					string text = "";
-					int num6 = 0;
-					int num7 = 0;
-					int num8 = 0;
-					int num9 = 0;
-					int num10 = num5 * hoverItem.stack;
+					long num6 = 0;
+					long num7 = 0;
+					long num8 = 0;
+					long num9 = 0;
+					long num10 = num5 * hoverItem.stack;
 					if (!hoverItem.buy)
 					{
 						num10 = num5 / 5;
@@ -313,7 +313,7 @@ namespace CompareItemStats
 							num10 = 1;
 						}
 
-						int num11 = num10;
+						long num11 = num10;
 						num10 *= hoverItem.stack;
 						int amount = Main.shopSellbackHelper.GetAmount(hoverItem);
 						if (amount > 0)
@@ -390,7 +390,7 @@ namespace CompareItemStats
 				}
 			}
 
-			List<TooltipLine> lines = ItemLoader.ModifyTooltips(hoverItem, ref numLines, tooltipNames, ref array, ref array2, ref array3, ref yoyoLogo, out _);
+			List<TooltipLine> lines = ItemLoader.ModifyTooltips(hoverItem, ref numLines, tooltipNames, ref array, ref array2, ref array3, ref yoyoLogo, out _, prefixlineIndex);
 			return lines;
 		}
 	}
