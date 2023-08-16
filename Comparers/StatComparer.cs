@@ -85,7 +85,7 @@ namespace CompareItemStats.Comparers
 		/// <returns></returns>
 		public virtual string DiffToString(float diff)
 		{
-			return diff.ToString();
+			return Math.Round(diff, 2).ToString();
 		}
 
 		/// <summary>

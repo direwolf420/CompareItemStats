@@ -34,7 +34,7 @@ namespace CompareItemStats
 			bool? equipItemOverride = null;
 
 			if (firstCall && IsArmor(item, out Item armor) &&
-				(EmptyOrSame(item, player.HeldItem) || !IsArmor(player.HeldItem, out _)))
+				(CannotCompare(item, player.HeldItem) || !IsArmor(player.HeldItem, out _)))
 			{
 				//If mouseovered armor item and selected item is a compatible armor: Compare to selected item //SKIP
 
@@ -43,13 +43,13 @@ namespace CompareItemStats
 				//If mouseovered armor item and selected item is that item: Compare to equipped armor item //SWITCH
 
 				//If mouseovered armor item and selected item is not a compatible armor: Compare to equipped armor item //SWITCH
-				if (!EmptyOrSame(item, armor))
+				if (!CannotCompare(item, armor))
 				{
 					compItem = armor;
 					equipItemOverride = true;
 				}
 			}
-			else if (firstCall && item.wingSlot > -1 && (EmptyOrSame(item, player.HeldItem) || player.HeldItem.wingSlot == -1) && GetPlayerWings(out Item wing))
+			else if (firstCall && item.wingSlot > -1 && (CannotCompare(item, player.HeldItem) || player.HeldItem.wingSlot == -1) && GetPlayerWings(out Item wing))
 			{
 				//If mouseovered wing item and selected item is a compatible wing: Compare to selected item //SKIP
 
@@ -58,7 +58,7 @@ namespace CompareItemStats
 				//If mouseovered wing item and selected item is that item: Compare to equipped wing item //SWITCH
 
 				//If mouseovered wing item and selected item is not a compatible wing: Compare to equipped wing item //SWITCH
-				if (!EmptyOrSame(item, wing))
+				if (!CannotCompare(item, wing))
 				{
 					compItem = wing;
 					equipItemOverride = true;
@@ -87,7 +87,9 @@ namespace CompareItemStats
 				}
 			}
 
-			if (EmptyOrSame(item, compItem))
+			//TODO add proper ammo comparer that looks at if the current item has an ammo, and compare with that
+
+			if (CannotCompare(item, compItem))
 			{
 				return;
 			}
@@ -180,7 +182,7 @@ namespace CompareItemStats
 			}
 		}
 
-		public static bool EmptyOrSame(Item item, Item compItem)
+		public static bool CannotCompare(Item item, Item compItem)
 		{
 			if (compItem.IsAir)
 			{
@@ -189,6 +191,12 @@ namespace CompareItemStats
 
 			if (compItem.type == item.type && compItem.prefix == item.prefix)
 			{
+				return true;
+			}
+
+			if (compItem.ammo > 0 != item.ammo > 0)
+			{
+				//Cannot compare if one is ammo and the other isn't (ammos are a separate category of items)
 				return true;
 			}
 
