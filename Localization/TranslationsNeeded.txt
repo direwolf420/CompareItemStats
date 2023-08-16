@@ -1,0 +1,9 @@
+en-US, 35/35, 100%, missing 0
+de-DE, 35/35, 100%, missing 0
+it-IT, 0/35, 0%, missing 35
+fr-FR, 0/35, 0%, missing 35
+es-ES, 0/35, 0%, missing 35
+ru-RU, 0/35, 0%, missing 35
+zh-Hans, 35/35, 100%, missing 0
+pt-BR, 0/35, 0%, missing 35
+pl-PL, 0/35, 0%, missing 35
