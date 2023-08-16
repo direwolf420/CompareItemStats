@@ -15,7 +15,7 @@ Mods: {
 			HealMana.DisplayName: Odzyskiwana mana
 			UseMana.DisplayName: Użycie many
 			Autoswing.DisplayName: Autoużycie
-			CanFishInLava.DisplayName: Może łowić w lawie
+			CanFishInLava.DisplayName: Umożluwia łowienie w lawie
 			TileBoost.DisplayName: Zasięg
 			WingFlyTime.DisplayName: Czas lotu
 			WingHorizontal.DisplayName: Prędkość w poziomie
@@ -32,7 +32,7 @@ Mods: {
 			Available: Dostępny
 			EquippedItem: Przedmiot w użyciu
 			SelectedItem: Wybrany przedmiot
-			StatComparisom: Porôwnanie statystyk
+			StatComparisom: Porównanie statystyk
 			ComparisonHint: Przytrzymaj przycisk "Automatyczny wybór" ({0})
 		}
 
