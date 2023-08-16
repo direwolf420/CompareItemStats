@@ -30,7 +30,7 @@ If you experience issues with stats not being displayed, let me know. I did not 
 This does not work for most stats that accessories or armors give (consume ammo%, damage%, buff immunities etc.) as there is no tangible way to fetch this information. Hopefully, in a future update I will manage to implement such a thing.
 
 ## Localization
-If you wish to contribute translations, visit the [tML wiki page](https://github.com/tModLoader/tModLoader/wiki/Localization) on that.
+If you wish to contribute translations, visit the [tML wiki page](https://github.com/tModLoader/tModLoader/wiki/Contributing-Localization) on that.
 This mod uses `.hjson` files in the `Localization` folder.
 Translate things that are in english and commented out (either via `//` or `/* */`, remove the comment markers after translating)
 
