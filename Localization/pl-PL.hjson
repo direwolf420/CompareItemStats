@@ -38,16 +38,16 @@ Mods: {
 
 		Configs: {
 			CISClientConfig: {
-				// DisplayName: Client Config
+				DisplayName: Konfiguracja użytkownika
 
 				AlwaysShowComparison: {
-					// Label: Always Show Comparison
-					// Tooltip: If on, always displays comparison if it exists. Use the 'Auto Select' key to toggle it otherwise (usually <LeftShift>)
+					Label: Zawsze pokazuj porównanie
+                                        Tooltip: Jeżeli włączone, porównanie będzie zawsze poakzywane, pod warunkiem, że jest możliwe do przeprowadzenia. Uźyj przycisku 'Automatyczny wybór', aby przełączyć (domyślnie <LeftShift>).
 				}
 
 				DontShowHintTooltip: {
-					// Label: Don't Show Hint Tooltip
-					// Tooltip: If on, won't show the tooltip that tells you to how to show the comparison
+					Label: Nie pokazuj podpowiedzi
+					Tooltip: Jeżeli włączone, tekst wskazujący jak pokazać porównanie nie będzie wyświetlany.
 				}
 			}
 		}
