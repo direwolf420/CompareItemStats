@@ -1,7 +1,8 @@
 Mods: {
 	CompareItemStats: {
 		StatComparers: {
-		        Damage.DisplayName: Obrażenia
+
+		  Damage.DisplayName: Obrażenia
 			CritChance.DisplayName: Szansa na cios krytyczny
 			Speed.DisplayName: Szybkość użycia
 			Knockback.DisplayName: Odrzut
@@ -16,13 +17,14 @@ Mods: {
 			UseMana.DisplayName: Użycie many
 			Autoswing.DisplayName: Autoużycie
 			CanCatchLavaCritters.DisplayName: Umożliwia łapanie ognistych stworzeń
-                        CanFishInLava.DisplayName: Umożliwia łowienie w lawie
+      CanFishInLava.DisplayName: Umożliwia łowienie w lawie
 			TileBoost.DisplayName: Zasięg
 			WingFlyTime.DisplayName: Czas lotu
 			WingHorizontal.DisplayName: Prędkość w poziomie
 			WingVertical.DisplayName: Przyspieszenie w pionie
 			Class.DisplayName: Ta sama klasa
 			Regeneration.DisplayName: Regeneracja życia
+
 		}
 
 		Common: {

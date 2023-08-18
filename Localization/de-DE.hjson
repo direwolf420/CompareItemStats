@@ -15,6 +15,7 @@ Mods: {
 			HealMana.DisplayName: Wiederhergestelltes Mana
 			UseMana.DisplayName: Manakosten
 			Autoswing.DisplayName: Autoschwingen
+			CanCatchLavaCritters.DisplayName: Kann Lavacritter Fangen
 			CanFishInLava.DisplayName: Kann In Lava Angeln
 			TileBoost.DisplayName: Reichweite
 			WingFlyTime.DisplayName: Flugdauer
