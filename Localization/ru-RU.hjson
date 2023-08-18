@@ -15,6 +15,7 @@ Mods: {
 			// HealMana.DisplayName: Restored Mana
 			// UseMana.DisplayName: Mana Cost
 			// Autoswing.DisplayName: Autoswing
+			// CanCatchLavaCritters.DisplayName: Can Catch Lava Critters
 			// CanFishInLava.DisplayName: Can Fish In Lava
 			// TileBoost.DisplayName: Range
 			// WingFlyTime.DisplayName: Fly Time

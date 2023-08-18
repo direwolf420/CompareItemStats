@@ -15,6 +15,7 @@ Supported stats:
 * Knockback
 * Fishing/Bait Power
 * Fish In Lava
+* Catch Lava Critters
 * Pick/Axe/Hammer Power
 * Restored Mana/Life
 * Used Mana

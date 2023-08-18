@@ -15,6 +15,7 @@ Mods: {
 			HealMana.DisplayName: 魔力恢复
 			UseMana.DisplayName: 魔力消耗
 			Autoswing.DisplayName: 自动挥舞
+			CanCatchLavaCritters.DisplayName: 可以捕捉熔岩小动物
 			CanFishInLava.DisplayName: 可以於熔岩中釣魚
 			TileBoost.DisplayName: 范围
 			WingFlyTime.DisplayName: 飞行时间

@@ -1,4 +1,1 @@
-* Fixed tooltips (most notably knockback) not rounding values past 2 decimals
-* Fixed same class tooltip wrongfully showing No for weapons counting as the same class (but different internal classes)
-* Fixed weapon related tooltips showing on certain accessories like Shield of Cthulhu
-* Fixed weapon related tooltips showing when comparing ammo with non-ammo items
+* Added "Catch Lava Critters" comparison between bug nets

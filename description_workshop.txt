@@ -9,6 +9,7 @@ If you hover over armors or wings, and the selected item is not the same archety
 * Knockback
 * Fishing/Bait Power
 * Fish In Lava
+* Catch Lava Critters
 * Pick/Axe/Hammer Power
 * Restored Mana/Life
 * Used Mana

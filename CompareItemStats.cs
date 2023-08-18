@@ -62,6 +62,7 @@ namespace CompareItemStats
 			SpecialComparers = new List<SpecialComparer>()
 			{
 				new AutoswingComparer(),
+				new CanCatchLavaCrittersComparer(),
 				new CanFishInLavaComparer(),
 				new TileBoostComparer(),
 				new WingFlyTimeComparer(),
