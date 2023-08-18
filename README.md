@@ -38,3 +38,4 @@ Translate things that are in english and commented out (either via `//` or `/* *
 List of localization contributors:
 * German: **Psychotrickser**
 * Simplified Chinese: **Cyril**
+* Polish: **Taco**

@@ -1,1 +1,2 @@
 * Added "Catch Lava Critters" comparison between bug nets
+* Added polish localization, thanks Taco!
