@@ -7,7 +7,7 @@ Mods: {
 			Knockback.DisplayName: Odrzut
 			FishingPower.DisplayName: Moc wędki
 			BaitPower.DisplayName: Moc przynęty
-			Defense.DisplayName: Ochrona
+			Defense.DisplayName: Obrona
 			PickaxePower.DisplayName: Moc kilofa
 			AxePower.DisplayName: Moc siekiery
 			HammerPower.DisplayName: Moc młota
@@ -15,7 +15,7 @@ Mods: {
 			HealMana.DisplayName: Odzyskiwana mana
 			UseMana.DisplayName: Użycie many
 			Autoswing.DisplayName: Autoużycie
-			CanFishInLava.DisplayName: Umożluwia łowienie w lawie
+			CanFishInLava.DisplayName: Umożliwia łowienie w lawie
 			TileBoost.DisplayName: Zasięg
 			WingFlyTime.DisplayName: Czas lotu
 			WingHorizontal.DisplayName: Prędkość w poziomie
