@@ -42,7 +42,7 @@ Mods: {
 
 				AlwaysShowComparison: {
 					Label: Zawsze pokazuj porównanie
-                                        Tooltip: Jeżeli włączone, porównanie będzie zawsze poakzywane, pod warunkiem, że jest możliwe do przeprowadzenia. Uźyj przycisku 'Automatyczny wybór', aby przełączyć (domyślnie <LeftShift>).
+                                        Tooltip: Jeżeli włączone, porównanie będzie zawsze pokazywane, pod warunkiem, że jest możliwe do przeprowadzenia. Uźyj przycisku 'Automatyczny wybór', aby przełączyć (domyślnie <LeftShift>).
 				}
 
 				DontShowHintTooltip: {
