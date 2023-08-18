@@ -15,7 +15,7 @@ Mods: {
 			HealMana.DisplayName: Odzyskiwana mana
 			UseMana.DisplayName: Użycie many
 			Autoswing.DisplayName: Autoużycie
-			CanCatchLavaCritters.FisplayName
+			CanCatchLavaCritters.DisplayName: Umożliwia łapanie ognistych stworzeń
                         CanFishInLava.DisplayName: Umożliwia łowienie w lawie
 			TileBoost.DisplayName: Zasięg
 			WingFlyTime.DisplayName: Czas lotu
