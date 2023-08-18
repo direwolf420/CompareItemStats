@@ -6,4 +6,4 @@ es-ES, 0/36, 0%, missing 36
 ru-RU, 0/36, 0%, missing 36
 zh-Hans, 36/36, 100%, missing 0
 pt-BR, 0/36, 0%, missing 36
-pl-PL, 0/36, 0%, missing 36
+pl-PL, 36/36, 100%, missing 0

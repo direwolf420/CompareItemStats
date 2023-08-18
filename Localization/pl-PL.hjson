@@ -23,7 +23,6 @@ Mods: {
 			WingVertical.DisplayName: Przyspieszenie w pionie
 			Class.DisplayName: Ta sama klasa
 			Regeneration.DisplayName: Regeneracja życia
-
 		}
 
 		Common: {
@@ -34,7 +33,7 @@ Mods: {
 			Available: Dostępny
 			EquippedItem: Przedmiot w użyciu
 			SelectedItem: Wybrany przedmiot
-			StatComparisom: Porównanie statystyk
+			StatComparison: Porównanie statystyk
 			ComparisonHint: Przytrzymaj przycisk "Automatyczny wybór" ({0})
 		}
 
@@ -44,7 +43,7 @@ Mods: {
 
 				AlwaysShowComparison: {
 					Label: Zawsze pokazuj porównanie
-                                        Tooltip: Jeżeli włączone, porównanie będzie zawsze pokazywane, pod warunkiem, że jest możliwe do przeprowadzenia. Uźyj przycisku 'Automatyczny wybór', aby przełączyć (domyślnie <LeftShift>).
+					Tooltip: Jeżeli włączone, porównanie będzie zawsze pokazywane, pod warunkiem, że jest możliwe do przeprowadzenia. Uźyj przycisku 'Automatyczny wybór', aby przełączyć (domyślnie <LeftShift>).
 				}
 
 				DontShowHintTooltip: {
