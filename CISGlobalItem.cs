@@ -153,27 +153,27 @@ namespace CompareItemStats
 					equipItem = equipItemOverride.Value ? $" ({LangHelper.GetTextFromMod("Common.EquippedItem")})" : $" ({LangHelper.GetTextFromMod("Common.SelectedItem")})";
 				}
 
-				if (!config.DontShowHintTooltip)
+				string statComparisonHeaderText = $"={LangHelper.GetTextFromMod("Common.StatComparison")}";
+				Color color = Color.Gold;
+				if (!showComparison)
 				{
-					string statComparisonHeaderText = $"={LangHelper.GetTextFromMod("Common.StatComparison")}";
-					Color color = Color.Gold;
-					if (!showComparison)
+					color = Color.Gray;
+					statComparisonHeaderText += $" {LangHelper.GetTextFromMod("Common.Available")}{equipItem}";
+					if (!config.DontShowHintTooltip)
 					{
-						color = Color.Gray;
-						statComparisonHeaderText += $" {LangHelper.GetTextFromMod("Common.Available")}{equipItem}";
 						statComparisonHeaderText += $": ({LangHelper.GetTextFromMod("Common.ComparisonHint", key)})";
 					}
-					else
-					{
-						statComparisonHeaderText += equipItem;
-					}
-					statComparisonHeaderText += "=";
-
-					tooltips.Add(new TooltipLine(Mod, "Diff", statComparisonHeaderText)
-					{
-						OverrideColor = Color.Lerp(mouseColor, color, 0.8f)
-					});
 				}
+				else
+				{
+					statComparisonHeaderText += equipItem;
+				}
+				statComparisonHeaderText += "=";
+
+				tooltips.Add(new TooltipLine(Mod, "Diff", statComparisonHeaderText)
+				{
+					OverrideColor = Color.Lerp(mouseColor, color, 0.8f)
+				});
 
 				if (showComparison)
 				{
