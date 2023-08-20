@@ -1,54 +1,54 @@
 Mods: {
 	CompareItemStats: {
 		StatComparers: {
-			// Damage.DisplayName: Damage
-			// CritChance.DisplayName: Crit
-			// Speed.DisplayName: Speed
-			// Knockback.DisplayName: Knockback
-			// FishingPower.DisplayName: Fishing Power
-			// BaitPower.DisplayName: Bait Power
-			// Defense.DisplayName: Defense
-			// PickaxePower.DisplayName: Pickaxe Power
-			// AxePower.DisplayName: Axe Power
-			// HammerPower.DisplayName: Hammer Power
-			// HealLife.DisplayName: Restored Life
-			// HealMana.DisplayName: Restored Mana
-			// UseMana.DisplayName: Mana Cost
-			// Autoswing.DisplayName: Autoswing
-			// CanCatchLavaCritters.DisplayName: Can Catch Lava Critters
-			// CanFishInLava.DisplayName: Can Fish In Lava
-			// TileBoost.DisplayName: Range
-			// WingFlyTime.DisplayName: Fly Time
-			// WingHorizontal.DisplayName: Horizontal Velocity
-			// WingVertical.DisplayName: Vertical Acceleration
-			// Class.DisplayName: Same Class
-			// Regeneration.DisplayName: Life Regeneration
+			Damage.DisplayName: Урон
+			CritChance.DisplayName: Шанс критического удара
+			Speed.DisplayName: Скорость
+			Knockback.DisplayName: Отбрасывание
+			FishingPower.DisplayName: Мастерство рыбалки
+			BaitPower.DisplayName: Сила наживки
+			Defense.DisplayName: Защита
+			PickaxePower.DisplayName: Мощность кирки
+			AxePower.DisplayName: Мощность топора
+			HammerPower.DisplayName: Мощность молота
+			HealLife.DisplayName: Восстановление здоровья
+			HealMana.DisplayName: Восстановление маны
+			UseMana.DisplayName: Использует маны
+			Autoswing.DisplayName: Автострельба
+			CanCatchLavaCritters.DisplayName: Может ловить жарких существ
+			CanFishInLava.DisplayName: Может рыбачить в лаве
+			TileBoost.DisplayName: Дистанция
+			WingFlyTime.DisplayName: Длительность полёта
+			WingHorizontal.DisplayName: Горизонтальная скорость
+			WingVertical.DisplayName: Вертикальное ускорение
+			Class.DisplayName: Тот же класс
+			Regeneration.DisplayName: Регенерация здоровья
 		}
 
 		Common: {
-			// Yes: Yes
-			// No: No
-			// Seconds: s
-			// MilesPerHour: mph
-			// Available: Available
-			// EquippedItem: Equipped Item
-			// SelectedItem: Selected Item
-			// StatComparison: Stat Comparison
-			// ComparisonHint: Hold 'Auto Select' key ({0})
+			Yes: Да
+			No: Нет
+			Seconds: с.
+			MilesPerHour: м/ч
+			Available: возможно
+			EquippedItem: Надетый предмет
+			SelectedItem: Выбранный предмет
+			StatComparison: Сравнение статистики
+			ComparisonHint: Удерживай клавишу 'Автовыбор' ({0})
 		}
 
 		Configs: {
 			CISClientConfig: {
-				// DisplayName: Client Config
+				DisplayName: Настройки клиента
 
 				AlwaysShowComparison: {
-					// Label: Always Show Comparison
-					// Tooltip: If on, always displays comparison if it exists. Use the 'Auto Select' key to toggle it otherwise (usually <LeftShift>)
+					Label: Всегда сравнивать
+					Tooltip: Если включено, то сравнение будет всегда отображаться, где это возможно. Включение/Отключение клавишей 'Автовыбор' (обычно <LeftShift>)
 				}
 
 				DontShowHintTooltip: {
-					// Label: Don't Show Hint Tooltip
-					// Tooltip: If on, won't show the tooltip that tells you to how to show the comparison
+					Label: Не показывать подсказку
+					Tooltip: Если включено, то подсказка, поясняющая как увидеть сравнение статистики, показываться не будет
 				}
 			}
 		}
