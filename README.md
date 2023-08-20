@@ -39,3 +39,4 @@ List of localization contributors:
 * German: **Psychotrickser**
 * Simplified Chinese: **Cyril**
 * Polish: **Taco**
+* Russian: **GodHybrid**
