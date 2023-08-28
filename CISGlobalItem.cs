@@ -1,12 +1,12 @@
+using CompareItemStats.Comparers;
+using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.GameContent.UI;
-using Terraria.ModLoader;
-using Terraria.ID;
-using Microsoft.Xna.Framework;
-using CompareItemStats.Comparers;
 using Terraria.GameInput;
+using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace CompareItemStats
 {
@@ -27,7 +27,7 @@ namespace CompareItemStats
 
 			Player player = Main.LocalPlayer;
 			Item compItem = player.HeldItem;
-			
+
 			//If set to true, will show that it is being compared against the equipped item
 			//If set to false, this comparison is made against the held item (only set to false if setting true is technically possible)
 			//Null will not display anything

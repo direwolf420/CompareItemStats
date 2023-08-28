@@ -8,8 +8,8 @@ namespace CompareItemStats
 	{
 		public override ConfigScope Mode => ConfigScope.ClientSide;
 
-		public static CISClientConfig Instance => ModContent.GetInstance< CISClientConfig>();
-		
+		public static CISClientConfig Instance => ModContent.GetInstance<CISClientConfig>();
+
 		[DefaultValue(false)]
 		public bool AlwaysShowComparison;
 
