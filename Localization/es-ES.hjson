@@ -1,54 +1,52 @@
 Mods: {
 	CompareItemStats: {
 		StatComparers: {
-			// Damage.DisplayName: Damage
-			// CritChance.DisplayName: Crit
-			// Speed.DisplayName: Speed
-			// Knockback.DisplayName: Knockback
-			// FishingPower.DisplayName: Fishing Power
-			// BaitPower.DisplayName: Bait Power
-			// Defense.DisplayName: Defense
-			// PickaxePower.DisplayName: Pickaxe Power
-			// AxePower.DisplayName: Axe Power
-			// HammerPower.DisplayName: Hammer Power
-			// HealLife.DisplayName: Restored Life
-			// HealMana.DisplayName: Restored Mana
-			// UseMana.DisplayName: Mana Cost
-			// Autoswing.DisplayName: Autoswing
-			// CanCatchLavaCritters.DisplayName: Can Catch Lava Critters
-			// CanFishInLava.DisplayName: Can Fish In Lava
-			// TileBoost.DisplayName: Range
-			// WingFlyTime.DisplayName: Fly Time
-			// WingHorizontal.DisplayName: Horizontal Velocity
-			// WingVertical.DisplayName: Vertical Acceleration
-			// Class.DisplayName: Same Class
-			// Regeneration.DisplayName: Life Regeneration
-		}
+			// Damage.DisplayName: Daño
+			// CritChance.DisplayName: Critico			
+			// Speed.DisplayName: Velocidad			
+			// Knockback.DisplayName: Retroceso			
+			// FishingPower.DisplayName: Poder de Pesca			
+			// BaitPower.DisplayName: Poder de Cebo			
+			// Defense.DisplayName: Defensa			
+			// PickaxePower.DisplayName: Poder de Pico		
+			// AxePower.DisplayName: Poder de Hacha			
+			// HammerPower.DisplayName: Poder de Martillo
+			// HealLife.DisplayName: Vida Restaurada
+			// HealMana.DisplayName: Mana restaurado			
+			// UseMana.DisplayName: Costo de mana
+			// Autoswing.DisplayName: Auto Uso			
+			// CanCatchLavaCritters.DisplayName: Puede atrapar criaturas de lava			
+			// CanFishInLava.DisplayName: Puede pescar en la lava			
+			// TileBoost.DisplayName: Rango			
+			// WingFlyTime.DisplayName: Tiempo de vuelo
+			// WingHorizontal.DisplayName: Velocidad Horizontal
+			// WingVertical.DisplayName: Aceleración vertical			
+			// Class.DisplayName: Misma clase
+			// Regeneration.DisplayName: Regeneracion de vida	}
 
 		Common: {
-			// Yes: Yes
+			// Yes: Si
 			// No: No
 			// Seconds: s
 			// MilesPerHour: mph
-			// Available: Available
-			// EquippedItem: Equipped Item
-			// SelectedItem: Selected Item
-			// StatComparison: Stat Comparison
-			// ComparisonHint: Hold 'Auto Select' key ({0})
+			// Available: Disponible			
+			// EquippedItem: Artículo equipado
+			// SelectedItem: Item seleccionado
+			// StatComparison: Comparación de estadísticas
+			// ComparisonHint: Mantenga presionada la tecla 'Selección automática' ({0})
 		}
 
 		Configs: {
 			CISClientConfig: {
-				// DisplayName: Client Config
+				// DisplayName: Configuración del cliente
 
 				AlwaysShowComparison: {
-					// Label: Always Show Comparison
-					// Tooltip: If on, always displays comparison if it exists. Use the 'Auto Select' key to toggle it otherwise (usually <LeftShift>)
+					// Label: Mostrar siempre comparación
+					// Tooltip: Si está activado, siempre muestra la comparación si existe. Utilice la tecla 'Selección automática' para alternarla de lo contrario (normalmente es <LeftShift>)
 				}
 
 				DontShowHintTooltip: {
-					// Label: Don't Show Hint Tooltip
-					// Tooltip: If on, won't show the tooltip that tells you to how to show the comparison
+					// Label: No mostrar información sobre herramientas de sugerencia					// Tooltip: Si está activado, no se mostrará la información sobre herramientas que le indica cómo mostrar la comparación.
 				}
 			}
 		}
