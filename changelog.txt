@@ -1,1 +1,3 @@
-* Added russian localization, thanks GodHybrid!
+v{ModVersion} has been published to {tMLBuildPurpose} tML v{tMLVersion}.
+
+* Added spanish localization, thanks T3sl4B0y!
