@@ -31,4 +31,5 @@ List of localization contributors:
 * Simplified Chinese: [b]Cyril[/b]
 * Polish: [b]Taco[/b]
 * Russian: [b]GodHybrid[/b]
+* Spanish: [b]T3sl4B0y[/b]
 [hr][/hr]

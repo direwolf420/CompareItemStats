@@ -40,3 +40,4 @@ List of localization contributors:
 * Simplified Chinese: **Cyril**
 * Polish: **Taco**
 * Russian: **GodHybrid**
+* Spanish: **T3sl4B0y**
