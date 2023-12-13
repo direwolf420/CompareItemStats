@@ -5,24 +5,24 @@ Mods: {
 			// CritChance.DisplayName: Critico
 			// Speed.DisplayName: Velocità
 			// Knockback.DisplayName: Spintone
-			// FishingPower.DisplayName: Potenza Pesca
-			// BaitPower.DisplayName: Potenza Esca
+			// FishingPower.DisplayName: Potenza pesca
+			// BaitPower.DisplayName: Potenza esca
 			// Defense.DisplayName: Difesa
-			// PickaxePower.DisplayName: Potenza Piccone
-			// AxePower.DisplayName: Potenza Ascia
-			// HammerPower.DisplayName: Potenza Martello
-			// HealLife.DisplayName: Vita Ripristinata
-			// HealMana.DisplayName: Mana Ripristinato
-			// UseMana.DisplayName: Costo Mana
-			// Autoswing.DisplayName: Uso Automatico
-			// CanCatchLavaCritters.DisplayName: Può Catturare Creature di Lava
-			// CanFishInLava.DisplayName: Consente di Pescare nella Lava
+			// PickaxePower.DisplayName: Potenza piccone
+			// AxePower.DisplayName: Potenza ascia
+			// HammerPower.DisplayName: Potenza martello
+			// HealLife.DisplayName: Vita ripristinata
+			// HealMana.DisplayName: Mana ripristinato
+			// UseMana.DisplayName: Costo mana
+			// Autoswing.DisplayName: Uso automatico
+			// CanCatchLavaCritters.DisplayName: Può catturare creature di lava
+			// CanFishInLava.DisplayName: Consente di pescare nella lava
 			// TileBoost.DisplayName: Gittata
-			// WingFlyTime.DisplayName: Tempo di Volo
-			// WingHorizontal.DisplayName: Velocità Orizzontale
-			// WingVertical.DisplayName: Accelerazione Verticale
-			// Class.DisplayName: Stessa Classe
-			// Regeneration.DisplayName: Rigenerazione Vita
+			// WingFlyTime.DisplayName: Tempo di volo
+			// WingHorizontal.DisplayName: Velocità orizzontale
+			// WingVertical.DisplayName: Accelerazione verticale
+			// Class.DisplayName: Stessa classe
+			// Regeneration.DisplayName: Rigenerazione vita
 		}
 
 		Common: {
@@ -31,19 +31,19 @@ Mods: {
 			// Seconds: s
 			// MilesPerHour: mph
 			// Available: Disponibile
-			// EquippedItem: Oggetto Equipaggiato
-			// SelectedItem: Oggetto Selezionato
-			// StatComparison: Confronto Statistiche
-			// ComparisonHint: Tieni Premuto il Tasto 'Selezione Automatica' ({0})
+			// EquippedItem: Oggetto equipaggiato
+			// SelectedItem: Oggetto selezionato
+			// StatComparison: Confronto statistiche
+			// ComparisonHint: Tieni premuto il Tasto 'Selezione automatica' ({0})
 		}
 
 		Configs: {
 			CISClientConfig: {
-				// DisplayName: Configurazione del Client
+				// DisplayName: Configurazione del client
 
 				AlwaysShowComparison: {
 					// Label: Mostra Sempre Confronto
-					// Tooltip: Se attivo, mostra sempre il confronto se esiste. Usa il tasto 'Selezione Automatica' per attivarlo e viceversa (di solito <LeftShift>)
+					// Tooltip: Se attivo, mostra sempre il confronto se esiste. Usa il tasto 'Selezione automatica' per attivarlo e viceversa (di solito <LeftShift>)
 				}
 
 				DontShowHintTooltip: {
