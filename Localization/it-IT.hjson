@@ -1,54 +1,54 @@
 Mods: {
 	CompareItemStats: {
 		StatComparers: {
-			// Damage.DisplayName: Danno
-			// CritChance.DisplayName: Critico
-			// Speed.DisplayName: Velocità
-			// Knockback.DisplayName: Spintone
-			// FishingPower.DisplayName: Potenza pesca
-			// BaitPower.DisplayName: Potenza esca
-			// Defense.DisplayName: Difesa
-			// PickaxePower.DisplayName: Potenza piccone
-			// AxePower.DisplayName: Potenza ascia
-			// HammerPower.DisplayName: Potenza martello
-			// HealLife.DisplayName: Vita ripristinata
-			// HealMana.DisplayName: Mana ripristinato
-			// UseMana.DisplayName: Costo mana
-			// Autoswing.DisplayName: Uso automatico
-			// CanCatchLavaCritters.DisplayName: Può catturare creature di lava
-			// CanFishInLava.DisplayName: Consente di pescare nella lava
-			// TileBoost.DisplayName: Gittata
-			// WingFlyTime.DisplayName: Tempo di volo
-			// WingHorizontal.DisplayName: Velocità orizzontale
-			// WingVertical.DisplayName: Accelerazione verticale
-			// Class.DisplayName: Stessa classe
-			// Regeneration.DisplayName: Rigenerazione vita
+			 Damage.DisplayName: Danno
+			 CritChance.DisplayName: Critico
+			 Speed.DisplayName: Velocità
+			 Knockback.DisplayName: Spintone
+			 FishingPower.DisplayName: Potenza pesca
+			 BaitPower.DisplayName: Potenza esca
+			 Defense.DisplayName: Difesa
+			 PickaxePower.DisplayName: Potenza piccone
+			 AxePower.DisplayName: Potenza ascia
+			 HammerPower.DisplayName: Potenza martello
+			 HealLife.DisplayName: Vita ripristinata
+			 HealMana.DisplayName: Mana ripristinato
+			 UseMana.DisplayName: Costo mana
+			 Autoswing.DisplayName: Uso automatico
+			 CanCatchLavaCritters.DisplayName: Può catturare creature di lava
+			 CanFishInLava.DisplayName: Consente di pescare nella lava
+			 TileBoost.DisplayName: Gittata
+			 WingFlyTime.DisplayName: Tempo di volo
+			 WingHorizontal.DisplayName: Velocità orizzontale
+			 WingVertical.DisplayName: Accelerazione verticale
+			 Class.DisplayName: Stessa classe
+			 Regeneration.DisplayName: Rigenerazione vita
 		}
 
 		Common: {
-			// Yes: Sì
-			// No: No
-			// Seconds: s
-			// MilesPerHour: mph
-			// Available: Disponibile
-			// EquippedItem: Oggetto equipaggiato
-			// SelectedItem: Oggetto selezionato
-			// StatComparison: Confronto statistiche
-			// ComparisonHint: Tieni premuto il Tasto 'Selezione automatica' ({0})
+			 Yes: Sì
+			 No: No
+			 Seconds: s
+			 MilesPerHour: mph
+			 Available: Disponibile
+			 EquippedItem: Oggetto equipaggiato
+			 SelectedItem: Oggetto selezionato
+			 StatComparison: Confronto statistiche
+			 ComparisonHint: Tieni premuto il Tasto 'Selezione automatica' ({0})
 		}
 
 		Configs: {
 			CISClientConfig: {
-				// DisplayName: Configurazione del client
+				 DisplayName: Configurazione del client
 
 				AlwaysShowComparison: {
-					// Label: Mostra Sempre Confronto
-					// Tooltip: Se attivo, mostra sempre il confronto se esiste. Usa il tasto 'Selezione automatica' per attivarlo e viceversa (di solito <LeftShift>)
+					 Label: Mostra Sempre Confronto
+					 Tooltip: Se attivo, mostra sempre il confronto se esiste. Usa il tasto 'Selezione automatica' per attivarlo e viceversa (di solito <LeftShift>)
 				}
 
 				DontShowHintTooltip: {
-					// Label: Non mostrare il suggerimento
-					// Tooltip: Se attivo, non visualizzerà il suggerimento che indica come mostrare il confronto
+					 Label: Non mostrare il suggerimento
+					 Tooltip: Se attivo, non visualizzerà il suggerimento che indica come mostrare il confronto
 				}
 			}
 		}
