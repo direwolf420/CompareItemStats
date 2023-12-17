@@ -14,8 +14,8 @@ Mods: {
 			HealLife.DisplayName: Vida Restaurada
 			HealMana.DisplayName: Mana Restaurada
 			UseMana.DisplayName: Custo de Mana
-			Autoswing.DisplayName: Giro Automático
-			CanCatchLavaCritters.DisplayName: Pode Pescar Criaturas de Lava
+			Autoswing.DisplayName: Ataque Automático
+			CanCatchLavaCritters.DisplayName: Pode Pescar Animais de Lava
 			CanFishInLava.DisplayName: Pode Pescar em Lava
 			TileBoost.DisplayName: Alcance
 			WingFlyTime.DisplayName: Tempo de Voo
@@ -33,7 +33,7 @@ Mods: {
 			Available: Disponível
 			EquippedItem: Item Equipado
 			SelectedItem: Item Selecionado
-			StatComparison: Comparação de Status
+			StatComparison: Comparação de Estatísticas
 			ComparisonHint: Segure o botão 'Selecionar Automaticamente' ({0})
 		}
 
