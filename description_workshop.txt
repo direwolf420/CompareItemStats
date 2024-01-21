@@ -32,4 +32,5 @@ List of localization contributors:
 * Polish: [b]Taco[/b]
 * Russian: [b]GodHybrid[/b]
 * Spanish: [b]T3sl4B0y[/b]
+* Italian: [b]Sea Noodle[/b]
 [hr][/hr]

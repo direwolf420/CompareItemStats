@@ -41,3 +41,4 @@ List of localization contributors:
 * Polish: **Taco**
 * Russian: **GodHybrid**
 * Spanish: **T3sl4B0y**
+* Italian: **Sea Noodle**

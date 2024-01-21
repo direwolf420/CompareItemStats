@@ -1,6 +1,6 @@
 en-US, 36/36, 100%, missing 0
 de-DE, 36/36, 100%, missing 0
-it-IT, 0/36, 0%, missing 36
+it-IT, 36/36, 100%, missing 0
 fr-FR, 0/36, 0%, missing 36
 es-ES, 36/36, 100%, missing 0
 ru-RU, 36/36, 100%, missing 0
