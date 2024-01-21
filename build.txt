@@ -1,5 +1,5 @@
 displayName = Compare Item Stats
 author = direwolf420
-version = 0.2.0.5
+version = 0.2.0.6
 side = Client
 buildIgnore = *.csproj, *.sln, *.user, *.md, obj\*, bin\*, .vs\*, .git\*, .gitignore, .gitattributes

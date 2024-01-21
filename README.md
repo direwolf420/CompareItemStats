@@ -43,3 +43,4 @@ List of localization contributors:
 * Spanish: **T3sl4B0y**
 * Italian: **Sea Noodle**
 * Brazilian Portuguese: **GuiSaiUwU**
+* French: **Verveine**
