@@ -33,4 +33,5 @@ List of localization contributors:
 * Russian: [b]GodHybrid[/b]
 * Spanish: [b]T3sl4B0y[/b]
 * Italian: [b]Sea Noodle[/b]
+* Brazilian Portuguese: [b]GuiSaiUwU[/b]
 [hr][/hr]

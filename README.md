@@ -42,3 +42,4 @@ List of localization contributors:
 * Russian: **GodHybrid**
 * Spanish: **T3sl4B0y**
 * Italian: **Sea Noodle**
+* Brazilian Portuguese: **GuiSaiUwU**
