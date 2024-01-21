@@ -1,54 +1,54 @@
 Mods: {
 	CompareItemStats: {
 		StatComparers: {
-			// Damage.DisplayName: Damage
-			// CritChance.DisplayName: Crit
-			// Speed.DisplayName: Speed
-			// Knockback.DisplayName: Knockback
-			// FishingPower.DisplayName: Fishing Power
-			// BaitPower.DisplayName: Bait Power
-			// Defense.DisplayName: Defense
-			// PickaxePower.DisplayName: Pickaxe Power
-			// AxePower.DisplayName: Axe Power
-			// HammerPower.DisplayName: Hammer Power
-			// HealLife.DisplayName: Restored Life
-			// HealMana.DisplayName: Restored Mana
-			// UseMana.DisplayName: Mana Cost
-			// Autoswing.DisplayName: Autoswing
-			// CanCatchLavaCritters.DisplayName: Can Catch Lava Critters
-			// CanFishInLava.DisplayName: Can Fish In Lava
-			// TileBoost.DisplayName: Range
-			// WingFlyTime.DisplayName: Fly Time
-			// WingHorizontal.DisplayName: Horizontal Velocity
-			// WingVertical.DisplayName: Vertical Acceleration
-			// Class.DisplayName: Same Class
-			// Regeneration.DisplayName: Life Regeneration
+			Damage.DisplayName: Danno
+			CritChance.DisplayName: Critico
+			Speed.DisplayName: Velocità
+			Knockback.DisplayName: Spintone
+			FishingPower.DisplayName: Potenza pesca
+			BaitPower.DisplayName: Potenza esca
+			Defense.DisplayName: Difesa
+			PickaxePower.DisplayName: Potenza piccone
+			AxePower.DisplayName: Potenza ascia
+			HammerPower.DisplayName: Potenza martello
+			HealLife.DisplayName: Vita ripristinata
+			HealMana.DisplayName: Mana ripristinato
+			UseMana.DisplayName: Costo mana
+			Autoswing.DisplayName: Uso automatico
+			CanCatchLavaCritters.DisplayName: Può catturare creature di lava
+			CanFishInLava.DisplayName: Consente di pescare nella lava
+			TileBoost.DisplayName: Gittata
+			WingFlyTime.DisplayName: Tempo di volo
+			WingHorizontal.DisplayName: Velocità orizzontale
+			WingVertical.DisplayName: Accelerazione verticale
+			Class.DisplayName: Stessa classe
+			Regeneration.DisplayName: Rigenerazione vita
 		}
 
 		Common: {
-			// Yes: Yes
-			// No: No
-			// Seconds: s
-			// MilesPerHour: mph
-			// Available: Available
-			// EquippedItem: Equipped Item
-			// SelectedItem: Selected Item
-			// StatComparison: Stat Comparison
-			// ComparisonHint: Hold 'Auto Select' key ({0})
+			Yes: Sì
+			No: No
+			Seconds: s
+			MilesPerHour: mph
+			Available: Disponibile
+			EquippedItem: Oggetto equipaggiato
+			SelectedItem: Oggetto selezionato
+			StatComparison: Confronto statistiche
+			ComparisonHint: Tieni premuto il Tasto 'Selezione automatica' ({0})
 		}
 
 		Configs: {
 			CISClientConfig: {
-				// DisplayName: Client Config
+				DisplayName: Configurazione del client
 
 				AlwaysShowComparison: {
-					// Label: Always Show Comparison
-					// Tooltip: If on, always displays comparison if it exists. Use the 'Auto Select' key to toggle it otherwise (usually <LeftShift>)
+					Label: Mostra Sempre Confronto
+					Tooltip: Se attivo, mostra sempre il confronto se esiste. Usa il tasto 'Selezione automatica' per attivarlo e viceversa (di solito <LeftShift>)
 				}
 
 				DontShowHintTooltip: {
-					// Label: Don't Show Hint Tooltip
-					// Tooltip: If on, won't show the tooltip that tells you to how to show the comparison
+					Label: Non mostrare il suggerimento
+					Tooltip: Se attivo, non visualizzerà il suggerimento che indica come mostrare il confronto
 				}
 			}
 		}
