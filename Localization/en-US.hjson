@@ -34,7 +34,7 @@ Mods: {
 			EquippedItem: Equipped Item
 			SelectedItem: Selected Item
 			StatComparison: Stat Comparison
-			ComparisonHint: Hold 'Auto Select' key ({0})
+			ComparisonHint: Hold '{0}' key ({1})
 		}
 
 		Configs: {
@@ -52,5 +52,7 @@ Mods: {
 				}
 			}
 		}
+
+		Keybinds.Comparison.DisplayName: "{$Common.StatComparison}"
 	}
 }

@@ -34,7 +34,7 @@ Mods: {
 			EquippedItem: Objet Équipé
 			SelectedItem: Objet Sélectionné
 			StatComparison: Comparaison de Stats
-			ComparisonHint: Appuyez sur la Touche 'Sélection Automatique' ({0})
+			ComparisonHint: Appuyez sur la Touche '{0}' ({1})
 		}
 
 		Configs: {
@@ -52,5 +52,7 @@ Mods: {
 				}
 			}
 		}
+
+		Keybinds.Comparison.DisplayName: "{$Common.StatComparison}"
 	}
 }

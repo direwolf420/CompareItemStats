@@ -8,6 +8,8 @@ namespace CompareItemStats
 {
 	public class CompareItemStats : Mod
 	{
+		public static ModKeybind ComparisonBind { get; private set; }
+
 		/// <summary>
 		/// Comparers indexed by tooltip line name
 		/// </summary>
@@ -40,6 +42,8 @@ namespace CompareItemStats
 
 		public override void Load()
 		{
+			ComparisonBind = KeybindLoader.RegisterKeybind(this, "Comparison", "C");
+
 			TooltipComparers = new Dictionary<string, StatComparer>
 			{
 				{"Damage", new StatComparer("Damage") },

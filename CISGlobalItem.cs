@@ -6,6 +6,7 @@ using Terraria;
 using Terraria.GameContent.UI;
 using Terraria.GameInput;
 using Terraria.ID;
+using Terraria.Localization;
 using Terraria.ModLoader;
 
 namespace CompareItemStats
@@ -135,15 +136,35 @@ namespace CompareItemStats
 			CISClientConfig config = CISClientConfig.Instance;
 			if (newLines.Count > 0)
 			{
-				var keys = PlayerInput.CurrentProfile.InputModes[InputMode.Keyboard].KeyStatus[TriggerNames.SmartSelect];
-				string key = keys.Count == 0 ? null : keys[0];
+				string keybind = PlayerInput.GenerateInputTag_ForCurrentGamemode(tagForGameplay: false, $"{Mod.Name}/Comparison");
+				string keyname;
+				bool pressed;
+				if (keybind == string.Empty)
+				{
+					keybind = PlayerInput.GenerateInputTag_ForCurrentGamemode(tagForGameplay: false, TriggerNames.SmartSelect);
+					keyname = Language.GetTextValue("LegacyMenu.160");
+
+					if (keybind == string.Empty)
+					{
+						pressed = true;
+						keybind = Language.GetTextValue("LegacyMenu.195"); //<unbound>
+					}
+					else
+					{
+						//No tml hooks between controlTorch getting set, and then reset again in SmartSelectLookup, so we have to use the raw data from PlayerInput
+						pressed = PlayerInput.Triggers.Current.SmartSelect;
+					}
+				}
+				else
+				{
+					keyname = CompareItemStats.ComparisonBind.DisplayName.ToString();
+					pressed = player.GetModPlayer<CISPlayer>().HotkeyHeld;
+				}
 
 				//If has a key, but not pressing it, show the ForMoreInfo text
 				//Otherwise, list all comparisons
 
-				//No tml hooks between controlTorch getting set, and then reset again in SmartSelectLookup, so we have to use the raw data from PlayerInput
-				bool comparisonKeyPressed = key == null || PlayerInput.Triggers.Current.SmartSelect;
-				bool showComparison = comparisonKeyPressed || config.AlwaysShowComparison;
+				bool showComparison = pressed || config.AlwaysShowComparison;
 
 				Color mouseColor = Main.MouseTextColorReal;
 
@@ -161,7 +182,7 @@ namespace CompareItemStats
 					statComparisonHeaderText += $" {LangHelper.GetTextFromMod("Common.Available")}{equipItem}";
 					if (!config.DontShowHintTooltip)
 					{
-						statComparisonHeaderText += $": ({LangHelper.GetTextFromMod("Common.ComparisonHint", key)})";
+						statComparisonHeaderText += $": ({LangHelper.GetTextFromMod("Common.ComparisonHint", keyname, keybind)})";
 					}
 				}
 				else

@@ -27,6 +27,12 @@ Supported stats:
 * Defense
 * Life Regeneration
 
+The comparison can be shown by holding the "Auto Select" key by default, or by using the "Stat Comparison" keybind. Alternatively, it can be always shown using the config.
+
+On gamepad/controller, this keybind should be bound in the Gamepad/UI section, shown here:
+
+![Controller](https://raw.githubusercontent.com/direwolf420/CompareItemStats/master/controller.png)
+
 If you experience issues with stats not being displayed, let me know. I did not test this with many other mods or different languages.
 This does not work for most stats that accessories or armors give (consume ammo%, damage%, buff immunities etc.) as there is no tangible way to fetch this information. Hopefully, in a future update I will manage to implement such a thing.
 
