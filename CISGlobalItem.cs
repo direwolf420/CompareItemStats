@@ -158,7 +158,7 @@ namespace CompareItemStats
 				else
 				{
 					keyname = CompareItemStats.ComparisonBind.DisplayName.ToString();
-					pressed = player.GetModPlayer<CISPlayer>().HotkeyHeld;
+					pressed = CompareItemStats.ComparisonBind.Current;
 				}
 
 				//If has a key, but not pressing it, show the ForMoreInfo text
